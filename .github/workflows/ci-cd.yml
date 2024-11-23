@@ -1,0 +1,22 @@
+deploy:
+  needs: build
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Deploy Application
+      env:
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      run: |
+        echo "${DEPLOY_KEY}" > deploy_key.pem
+        chmod 600 deploy_key.pem
+        ssh -i deploy_key.pem -o StrictHostKeyChecking=no dmenache@${{ secrets.SERVER_IP }} <<EOF
+          cd /var/www/html
+          git pull origin main
+          composer install --no-dev
+        EOF
+        rm -f deploy_key.pem
+
