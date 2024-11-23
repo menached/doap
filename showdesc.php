@@ -101,147 +101,130 @@ $shortDescriptions = [
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
-"burlingame" => '<p data-tooltip="Discover Burlingame Doap, delivering premium cannabis throughout Burlingame and nearby areas.">
-    Fast cannabis delivery in Burlingame. Call us at 
+    "burlingame" => '<p data-tooltip="Discover Burlingame Doap, delivering premium cannabis throughout Burlingame and nearby areas.">
+        Fast cannabis delivery in Burlingame. Call us at 
+        <a href="tel:+16502930880" class="phone-number">(650)293-0880</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+    "campbell" => '<p data-tooltip="Discover Campbell Doap, delivering premium cannabis to Campbell and nearby neighborhoods.">
+        Easy, reliable cannabis delivery in Campbell. For delivery, call us at 
+        <a href="tel:+14086456700" class="phone-number">(408)645-6700</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+    "castrovalley" => '<p data-tooltip="Discover Castro Valley Doap, delivering top-quality cannabis throughout Castro Valley and nearby areas.">
+        Trusted cannabis delivery in Castro Valley. Call us at 
+        <a href="tel:+19252639209" class="phone-number">(925)263-9209</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+    "concord" => '<p data-tooltip="Discover Concord Doap, delivering premium cannabis to Concord and nearby areas.">
+        Quality cannabis delivery in Concord. Reach us at 
+        <a href="tel:+19254124880" class="phone-number">(925)412-4880</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+    "danville" => '<p data-tooltip="Discover Danville Doap, delivering premium cannabis throughout Danville and nearby neighborhoods.">
+        Fast, discreet cannabis delivery in Danville. Order now at 
+        <a href="tel:+19257256920" class="phone-number">(925)725-6920</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+    "dublin" => '<p data-tooltip="Discover Dublin Doap, delivering premium cannabis to Dublin and surrounding areas.">
+        Convenient cannabis delivery in Dublin. Call 
+        <a href="tel:+19255876777" class="phone-number">(925)587-6777</a> to order today
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </p>',
+"hillsborough" => '<p data-tooltip="Discover Hillsborough Doap, delivering high-quality cannabis throughout Hillsborough and nearby neighborhoods.">
+    Reliable cannabis delivery in Hillsborough. Call 
     <a href="tel:+16502930880" class="phone-number">(650)293-0880</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
-    "campbell" => '<p data-tooltip="Discover Campbell Doap, delivering premium cannabis to Campbell and nearby neighborhoods.">
-        Easy, reliable cannabis delivery in Campbell. For delivery, call us at 
-        <a href="tel:+14086456700">(408)645-6700</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-    "castrovalley" => '<p data-tooltip="Discover Castro Valley Doap, delivering top-quality cannabis throughout Castro Valley and nearby areas.">
-        Trusted cannabis delivery in Castro Valley. Call us at 
-        <a href="tel:+19252639209">(925)263-9209</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-    "concord" => '<p data-tooltip="Discover Concord Doap, delivering premium cannabis to Concord and nearby areas.">
-        Quality cannabis delivery in Concord. Reach us at 
-        <a href="tel:+19254124880">(925)412-4880</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-    "danville" => '<p data-tooltip="Discover Danville Doap, delivering premium cannabis throughout Danville and nearby neighborhoods.">
-        Fast, discreet cannabis delivery in Danville. Order now at 
-        <a href="tel:+19257256920">(925)725-6920</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-    "dublin" => '<p data-tooltip="Discover Dublin Doap, delivering premium cannabis to Dublin and surrounding areas.">
-        Convenient cannabis delivery in Dublin. Call 
-        <a href="tel:+19255876777">(925)587-6777</a> to order today
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-"hillsborough" => '<p data-tooltip="Discover Hillsborough Doap, delivering high-quality cannabis throughout Hillsborough and nearby neighborhoods.">
-    Reliable cannabis delivery in Hillsborough. Call 
-    <a href="tel:+16502930880">(650)293-0880</a>
-    <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-    </a>
-</p>',
 "livermore" => '<p data-tooltip="Discover Livermore Doap, delivering premium cannabis throughout Livermore and surrounding areas.">
     Quick cannabis delivery in Livermore. Call 
-    <a href="tel:+19257186181">(925)718-6181</a> for details
+    <a href="tel:+19257186181" class="phone-number">(925)718-6181</a> for details
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "lafayette" => '<p data-tooltip="Discover Lafayette Doap, delivering premium cannabis throughout Lafayette and nearby neighborhoods.">
     Fast cannabis delivery in Lafayette. Call 
-    <a href="tel:+19258711333">(925)871-1333</a> to place an order
+    <a href="tel:+19258711333" class="phone-number">(925)871-1333</a> to place an order
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "orinda" => '<p data-tooltip="Discover Orinda Doap, delivering premium cannabis to Orinda and nearby areas.">
     Trusted cannabis delivery in Orinda. Call 
-    <a href="tel:+19258917800">(925)891-7800</a>
+    <a href="tel:+19258917800" class="phone-number">(925)891-7800</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "pittsburg" => '<p data-tooltip="Discover Pittsburg Doap, delivering high-quality cannabis throughout Pittsburg and nearby areas.">
     Easy cannabis delivery in Pittsburg. Call 
-    <a href="tel:+19258258555">(925)825-8555</a>
+    <a href="tel:+19258258555" class="phone-number">(925)825-8555</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "pleasanthill" => '<p data-tooltip="Discover Pleasant Hill Doap, delivering high-quality cannabis throughout Pleasant Hill and nearby neighborhoods.">
     Fast cannabis delivery in Pleasant Hill. Reach us at 
-    <a href="tel:+19258917800">(925)891-7800</a>
+    <a href="tel:+19258917800" class="phone-number">(925)891-7800</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "pleasanton" => '<p data-tooltip="Discover Pleasanton Doap, delivering premium cannabis throughout Pleasanton and nearby areas.">
     Convenient cannabis delivery in Pleasanton. Order now at 
-    <a href="tel:+19255876777">(925)587-6777</a>
+    <a href="tel:+19255876777" class="phone-number">(925)587-6777</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "sanramon" => '<p data-tooltip="Discover San Ramon Doap, delivering premium cannabis throughout San Ramon and nearby neighborhoods.">
     Reliable cannabis delivery in San Ramon. Call 
-    <a href="tel:+19253656030">(925)365-6030</a>
+    <a href="tel:+19253656030" class="phone-number">(925)365-6030</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "walnutcreek" => '<p data-tooltip="Discover Walnut Creek Doap, delivering high-quality cannabis throughout Walnut Creek and nearby neighborhoods.">
     Quality cannabis delivery in Walnut Creek. Contact us at 
-    <a href="tel:+19254642075">(925)464-2075</a>
+    <a href="tel:+19254642075" class="phone-number">(925)464-2075</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "sunol" => '<p data-tooltip="Discover Sunol Doap, delivering premium cannabis throughout Sunol and nearby neighborhoods.">
     Fast cannabis delivery in Sunol. Order at 
-    <a href="tel:+19257186181">(925)718-6181</a> today
+    <a href="tel:+19257186181" class="phone-number">(925)718-6181</a> today
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "california" => '<p data-tooltip="Discover California Doap, delivering premium cannabis statewide.">
     Statewide cannabis delivery in California. Call us at 
-    <a href="mailto:california@doap.com">california@doap.com</a>
+    <a href="mailto:california@doap.com" class="phone-number">california@doap.com</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 "norcal" => '<p data-tooltip="Discover NorCal Doap, delivering premium cannabis throughout Northern California.">
     Top-tier cannabis delivery in Northern California. Email us at 
-    <a href="mailto:norcal@doap.com">norcal@doap.com</a>
+    <a href="mailto:norcal@doap.com" class="phone-number">norcal@doap.com</a>
     <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-             style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
 </p>',
 ];
