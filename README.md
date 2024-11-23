@@ -25,4 +25,3 @@
 ### Security
 - Let's Encrypt SSL certificates for HTTPS across all domains.
 - SpamAssassin and custom Sieve rules for email spam management.
-# Test CI/CD
