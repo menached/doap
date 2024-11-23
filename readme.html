@@ -1,50 +1,171 @@
-<section id="technology-stack">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #4CAF50;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'Courier New', Courier, monospace;
+      background: #f4f4f4;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      color: #d63384;
+    }
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project Documentation</h1>
+  </header>
+  <main>
     <h2>Technology Stack</h2>
 
     <h3>Core Components</h3>
     <ul>
-        <li><strong>Frontend:</strong>
-            <ul>
-                <li>WordPress with WooCommerce for e-commerce functionality.</li>
-                <li>React for modern, interactive elements on specific pages.</li>
-            </ul>
-        </li>
-        <li><strong>Backend:</strong>
-            <ul>
-                <li>PHP 8.2 for WordPress and custom backend logic.</li>
-                <li>MySQL for relational database needs.</li>
-            </ul>
-        </li>
-        <li><strong>Caching and Performance:</strong>
-            <ul>
-                <li>Redis for session and object caching.</li>
-                <li>CloudFront (for specific subdomains) as a CDN for static content.</li>
-            </ul>
-        </li>
-        <li><strong>Servers and Hosting:</strong>
-            <ul>
-                <li>Apache for web serving.</li>
-                <li>Debian 12 for server OS.</li>
-                <li>Hosted on AWS (EC2, S3, and RDS for database needs).</li>
-            </ul>
-        </li>
-        <li><strong>Email:</strong>
-            <ul>
-                <li>Postfix and Dovecot for email services.</li>
-                <li>SES for outbound email.</li>
-            </ul>
-        </li>
+      <li><strong>Frontend:</strong>
+        <ul>
+          <li>WordPress with WooCommerce for e-commerce functionality.</li>
+          <li>React for modern, interactive elements on specific pages.</li>
+        </ul>
+      </li>
+      <li><strong>Backend:</strong>
+        <ul>
+          <li>PHP 8.2 for WordPress and custom backend logic.</li>
+          <li>MySQL for relational database needs.</li>
+        </ul>
+      </li>
+      <li><strong>Caching and Performance:</strong>
+        <ul>
+          <li>Redis for session and object caching.</li>
+          <li>CloudFront (for specific subdomains) as a CDN for static content.</li>
+        </ul>
+      </li>
+      <li><strong>Servers and Hosting:</strong>
+        <ul>
+          <li>Apache for web serving.</li>
+          <li>Debian 12 for server OS.</li>
+          <li>Hosted on AWS (EC2, S3, and RDS for database needs).</li>
+        </ul>
+      </li>
+      <li><strong>Email:</strong>
+        <ul>
+          <li>Postfix and Dovecot for email services.</li>
+          <li>SES for outbound email.</li>
+        </ul>
+      </li>
     </ul>
 
     <h3>SEO and Social Sharing</h3>
     <ul>
-        <li>Rank Math and Rank Math Pro for SEO optimization.</li>
-        <li>Open Graph metadata integration for better link previews on social platforms.</li>
+      <li>Rank Math and Rank Math Pro for SEO optimization.</li>
+      <li>Open Graph metadata integration for better link previews on social platforms.</li>
     </ul>
 
     <h3>Security</h3>
     <ul>
-        <li>Let's Encrypt SSL certificates for HTTPS across all domains.</li>
-        <li>SpamAssassin and custom Sieve rules for email spam management.</li>
+      <li>Let's Encrypt SSL certificates for HTTPS across all domains.</li>
+      <li>SpamAssassin and custom Sieve rules for email spam management.</li>
     </ul>
-</section>
+
+    <hr>
+
+    <h2>CI/CD Implementation</h2>
+
+    <h3>Overview</h3>
+    <p>The project implements a CI/CD pipeline using <strong>GitHub Actions</strong> to automate deployment for the WordPress site hosted on a Debian 12 server. The pipeline ensures that changes pushed to the repository are automatically tested and deployed to the production server.</p>
+
+    <h3>Workflow Configuration</h3>
+    <ul>
+      <li><strong>Trigger Events:</strong> Workflow runs on every <code>push</code> or <code>pull_request</code> to the <code>main</code> branch.</li>
+      <li><strong>Build and Deploy:</strong>
+        <ul>
+          <li>Check out the repository using <code>actions/checkout@v3</code>.</li>
+          <li>Deploy the latest changes to the production server:
+            <ul>
+              <li>Connects securely using SSH with a deployment key.</li>
+              <li>Pulls the latest code from the repository.</li>
+              <li>Installs dependencies using <code>composer install</code>.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Deployment Details</h3>
+    <ul>
+      <li><strong>Server:</strong> The pipeline deploys to a WordPress instance hosted at <code>/var/www/html</code> on <code>deb1.doap.com</code>.</li>
+      <li><strong>Authentication:</strong> Uses a securely stored private SSH key (<code>DEPLOY_KEY</code>) for authentication, with the corresponding public key configured on the server.</li>
+      <li><strong>Commands Executed:</strong>
+        <ul>
+          <li><code>git pull origin main</code>: Updates the production codebase with the latest changes.</li>
+          <li><code>composer install --no-dev</code>: Ensures all necessary dependencies are installed for production.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>How to Trigger the Workflow</h3>
+    <p>Push changes to the <code>main</code> branch:</p>
+    <pre><code>git push origin main</code></pre>
+    <p>The workflow runs automatically and can be monitored in the <strong>Actions</strong> tab on GitHub.</p>
+
+    <h3>Monitoring and Debugging</h3>
+    <ul>
+      <li>Workflow logs are available in the <strong>Actions</strong> tab.</li>
+      <li>SSH connectivity and deployment steps are logged for debugging purposes.</li>
+    </ul>
+
+    <h3>Benefits</h3>
+    <ul>
+      <li><strong>Automation:</strong> Eliminates the need for manual deployment steps.</li>
+      <li><strong>Consistency:</strong> Ensures a reliable deployment process with every update.</li>
+      <li><strong>Security:</strong> Uses GitHub Secrets to securely store sensitive information like SSH keys and server IPs.</li>
+      <li><strong>Scalability:</strong> Can be extended to include additional environments or deployment tasks.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Project Documentation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
