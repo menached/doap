@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $subject = "Inbound SMS Alert";
     $message = "Hello Team, this is a message from the PBX alerting you to an inbound SMS.  
 
-Check it out at:
+Check it out:
 	https://sip.doap.com/ucp/
 
 !";
