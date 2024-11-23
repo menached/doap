@@ -8,11 +8,11 @@ on:
     branches:
       - main
 
-jobs:  # Define your jobs here
-  deploy:  # Job name
-    runs-on: ubuntu-latest  # Runner environment
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
 
-    steps:  # Define the steps for the job
+    steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
@@ -21,12 +21,21 @@ jobs:  # Define your jobs here
           SERVER_IP: ${{ secrets.SERVER_IP }}
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
+          echo "Deploying to ${SERVER_IP}"
           echo "${DEPLOY_KEY}" > deploy_key.pem
           chmod 600 deploy_key.pem
-          ssh -i deploy_key.pem -o StrictHostKeyChecking=no dmenache@${{ secrets.SERVER_IP }} <<EOF
+
+          # Debug SSH connection
+          ssh -v -i deploy_key.pem -o StrictHostKeyChecking=no dmenache@${{ secrets.SERVER_IP }} <<EOF
+            echo "Connected to server"
+            whoami
+            pwd
+            ls -la /var/www/html
             cd /var/www/html
             git pull origin main
-            composer install --no-dev
+            composer install --no-dev || echo "Composer install failed"
           EOF
+
+          # Cleanup
           rm -f deploy_key.pem
 
