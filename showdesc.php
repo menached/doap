@@ -51,8 +51,6 @@
 }
 </style>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 16px; height: 16px; margin-left: 5px;">
-
 <?php
 $link = $_SERVER['HTTP_HOST'];
 $base = strstr($link, '.');
