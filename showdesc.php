@@ -51,6 +51,8 @@
 }
 </style>
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 16px; height: 16px; margin-left: 5px;">
+
 <?php
 $link = $_SERVER['HTTP_HOST'];
 $base = strstr($link, '.');
@@ -64,10 +66,10 @@ if ($base == ".doobiefinder.com") {
 
 // Define short descriptions
 $shortDescriptions = [
-    "alamo" => "Quick, reliable cannabis delivery in Alamo. Call us at <a href='tel:+19255534710'>925-553-4710</a> to place your order or for more info. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank' style='display: inline-block; padding: 5px 10px; font-size: 12px; background-color: #25d366; color: white; text-decoration: none; border-radius: 5px; margin-top: 5px;'>WhatsApp</a>",
-    "burlingame" => "Fast cannabis delivery in Burlingame, straight to your door. Call us at <a href='tel:+16502930880'>(650)293-0880</a> for orders and questions. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
-    "campbell" => "Easy, reliable cannabis delivery in Campbell. For delivery, call us at <a href='tel:+14086456700'>(408)645-6700</a> today. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
-    "castrovalley" => "Trusted cannabis delivery in Castro Valley. Call <a href='tel:+19252639209'>(925)263-9209</a> to place your order with us. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
+    "alamo" => "Quick, reliable cannabis delivery in Alamo. Call us at <a href='tel:+19255534710'>925-553-4710</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
+    "burlingame" => "Fast cannabis delivery in Burlingame, straight to your door. Call us at <a href='tel:+16502930880'>(650)293-0880</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
+    "campbell" => "Easy, reliable cannabis delivery in Campbell. For delivery, call us at <a href='tel:+14086456700'>(408)645-6700</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
+    "castrovalley" => "Trusted cannabis delivery in Castro Valley. Call <a href='tel:+19252639209'>(925)263-9209</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
     "concord" => "Quality cannabis delivery in Concord. Reach us at <a href='tel:+19254124880'>(925)412-4880</a> for fast delivery options. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
     "danville" => "Fast, discreet cannabis delivery in Danville. Order now at <a href='tel:+19257256920'>(925)725-6920</a>. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
     "dublin" => "Convenient cannabis delivery in Dublin. Call <a href='tel:+19255876777'>(925)587-6777</a> to order today. <br><a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'>Chat with us on WhatsApp</a>",
