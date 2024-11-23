@@ -64,7 +64,7 @@ if ($base == ".doobiefinder.com") {
 
 // Define short descriptions
 $shortDescriptions = [
-    "alamo" => "Quick, reliable cannabis delivery in Alamo. Call us at <a href='tel:+19255534710'>925-553-4710</a> to place your order or for more info.",
+    "alamo" => "Quick, reliable cannabis delivery in Alamo. Call us at <a href='tel:+19255534710'>925-553-4710</a> to place your order or for more info. *WhatsApp <a href='tel:+18332893627'>833-289-3627</a>",
     "burlingame" => "Fast cannabis delivery in Burlingame, straight to your door. Call us at <a href='tel:+16502930880'>(650)293-0880</a> for orders and questions.",
     "campbell" => "Easy, reliable cannabis delivery in Campbell. For delivery, call us at <a href='tel:+14086456700'>(408)645-6700</a> today.",
     "castrovalley" => "Trusted cannabis delivery in Castro Valley. Call <a href='tel:+19252639209'>(925)263-9209</a> to place your order with us.",
