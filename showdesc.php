@@ -64,7 +64,14 @@ if ($base == ".doobiefinder.com") {
 
 // Define short descriptions
 $shortDescriptions = [
-    "alamo" => "Quick, reliable cannabis delivery in Alamo. Call us at <a href='tel:+19255534710'>925-553-4710</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;'></a>",
+    "alamo" => '<p data-tooltip="Discover Alamo Doap, delivering top-quality cannabis throughout Alamo and nearby areas, including the historic Alamo Square Fountain. Enjoy 1-hour delivery from 9 AM to 9 PM, 7 days a week.">
+        <a href="/">Quick, reliable cannabis delivery in Alamo. Call us at </a>
+        <a href="tel:+19255534710">925-553-4710</a>
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" aria-label="Chat with us on WhatsApp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
+                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
+        </a>
+    </p>',
     "burlingame" => "Fast cannabis delivery in Burlingame, straight to your door. Call us at <a href='tel:+16502930880'>(650)293-0880</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
     "campbell" => "Easy, reliable cannabis delivery in Campbell. For delivery, call us at <a href='tel:+14086456700'>(408)645-6700</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
     "castrovalley" => "Trusted cannabis delivery in Castro Valley. Call <a href='tel:+19252639209'>(925)263-9209</a> <a href='https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.' target='_blank'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp' style='width: 16px; height: 16px; margin-left: 5px;'></a>",
