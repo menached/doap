@@ -72,17 +72,17 @@ if ($base == ".doobiefinder.com") {
 // Define short descriptions
 $shortDescriptions = [
     "alamo" => '<p data-tooltip="Discover Alamo Doap, delivering top-quality cannabis throughout Alamo and nearby areas, including the historic Alamo Square Fountain. Enjoy 1-hour delivery from 9 AM to 9 PM, 7 days a week.">
-        Quick, reliable cannabis delivery in Alamo. Call us at 
+        <a href="/">Quick, reliable cannabis delivery in Alamo. Call us at </a>
         <a href="tel:+19255534710">925-553-4710</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" aria-label="Chat with us on WhatsApp">
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp Business for fast and efficient communication.">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
                  style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
         </a>
     </p>',
     "burlingame" => '<p data-tooltip="Discover Burlingame Doap, delivering premium cannabis throughout Burlingame and nearby areas.">
-        Fast cannabis delivery in Burlingame, straight to your door. Call us at 
+        Fast cannabis delivery in Burlingame. Call us at 
         <a href="tel:+16502930880">(650)293-0880</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" aria-label="Chat with us on WhatsApp">
+        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp Business for fast and efficient communication.">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
                  style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
         </a>
