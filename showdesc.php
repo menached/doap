@@ -1,4 +1,27 @@
 <style>
+.whatsapp-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: middle;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+.phone-number {
+    color: #007BFF; /* Base color */
+    text-decoration: none;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.phone-number:hover {
+    text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF, 0 0 16px #00FFFF;
+    color: #00FFFF; /* Change color on hover */
+}
+
 .delivery-description a img {
     display: inline-block;
     vertical-align: middle;
@@ -71,22 +94,20 @@ if ($base == ".doobiefinder.com") {
 
 // Define short descriptions
 $shortDescriptions = [
-    "alamo" => '<p data-tooltip="Discover Alamo Doap, delivering top-quality cannabis throughout Alamo and nearby areas, including the historic Alamo Square Fountain. Enjoy 1-hour delivery from 9 AM to 9 PM, 7 days a week.">
-        <a href="/">Quick, reliable cannabis delivery in Alamo. Call us at </a>
-        <a href="tel:+19255534710">925-553-4710</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
-    "burlingame" => '<p data-tooltip="Discover Burlingame Doap, delivering premium cannabis throughout Burlingame and nearby areas.">
-        Fast cannabis delivery in Burlingame. Call us at 
-        <a href="tel:+16502930880">(650)293-0880</a>
-        <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
-                 style="width: 16px; height: 16px; margin-left: 5px; vertical-align: middle;">
-        </a>
-    </p>',
+"alamo" => '<p data-tooltip="Discover Alamo Doap, delivering top-quality cannabis throughout Alamo and nearby areas, including the historic Alamo Square Fountain. Enjoy 1-hour delivery from 9 AM to 9 PM, 7 days a week.">
+    <a href="/">Quick, reliable cannabis delivery in Alamo. Call us at </a>
+    <a href="tel:+19255534710" class="phone-number">925-553-4710</a>
+    <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+</p>',
+"burlingame" => '<p data-tooltip="Discover Burlingame Doap, delivering premium cannabis throughout Burlingame and nearby areas.">
+    Fast cannabis delivery in Burlingame. Call us at 
+    <a href="tel:+16502930880" class="phone-number">(650)293-0880</a>
+    <a href="https://wa.me/18332893627?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" title="Chat with us via WhatsApp for fast and efficient communication.">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+</p>',
     "campbell" => '<p data-tooltip="Discover Campbell Doap, delivering premium cannabis to Campbell and nearby neighborhoods.">
         Easy, reliable cannabis delivery in Campbell. For delivery, call us at 
         <a href="tel:+14086456700">(408)645-6700</a>
