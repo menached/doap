@@ -1,3 +1,13 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
 deploy:
   needs: build
   runs-on: ubuntu-latest
@@ -11,6 +21,7 @@ deploy:
         SERVER_IP: ${{ secrets.SERVER_IP }}
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
       run: |
+        echo "Deploying to ${SERVER_IP}"
         echo "${DEPLOY_KEY}" > deploy_key.pem
         chmod 600 deploy_key.pem
         ssh -i deploy_key.pem -o StrictHostKeyChecking=no dmenache@${{ secrets.SERVER_IP }} <<EOF
