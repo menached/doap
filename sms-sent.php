@@ -2,10 +2,10 @@
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $to = "info@doap.com";
     $subject = "Outbound SMS Alert";
-    $message = "Hello Team, this is a message from the PBX alerting you to an outbound SMS.  Likely from one of our team members to a customer.
+    $message = "Hello Doap Admin, this is a message from the PBX alerting you to an outbound SMS.  Likely from one of our team members to a customer.
 
 Check it out at:
-	https://freepbx.doap.com/ucp/
+	https://sip.doap.com/ucp/
 
 !";
     $headers = "From: info@doap.com";
