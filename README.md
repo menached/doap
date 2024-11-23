@@ -1,4 +1,4 @@
-## Technology Stack
+## DOAP Technology Stack
 
 ### Core Components
 - **Frontend:**
@@ -56,3 +56,5 @@ The CI/CD pipeline is defined in `.github/workflows/ci-cd.yml` and includes the 
   ```bash
   git push origin main
 
+
+#### 2024 DevOps & Platforms
