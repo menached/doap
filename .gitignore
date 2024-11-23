@@ -1,5 +1,5 @@
-/*
-!readme.html
-.github/*
-!.github/workflows/
-!.github/workflows/ci-cd.yml
+/*                      # Ignore everything
+!readme.html            # Allow readme.html
+.github/*               # Ignore everything in .github
+!.github/workflows/     # Allow the workflows directory
+!.github/workflows/ci-cd.yml # Specifically allow ci-cd.yml
