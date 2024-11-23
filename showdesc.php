@@ -1,4 +1,11 @@
 <style>
+.delivery-description a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
 .delivery-description {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
