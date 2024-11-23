@@ -12,14 +12,14 @@
 }
 
 .phone-number {
-    color: #007BFF; /* Base color */
+    color: #006400; /* Dark green */
     text-decoration: none;
-    transition: text-shadow 0.3s ease-in-out;
+    transition: text-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .phone-number:hover {
-    text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF, 0 0 16px #00FFFF;
-    color: #00FFFF; /* Change color on hover */
+    text-shadow: 0 0 4px #32CD32, 0 0 6px #32CD32; /* Subtle lime green glow */
+    color: #32CD32; /* Change to lime green on hover */
 }
 
 .delivery-description a img {
