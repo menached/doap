@@ -85,7 +85,6 @@
 <body>
     <div class="container">
         <form action="save_data.php" method="POST" onsubmit="notifyParentToScroll();">
-            <h2 style="text-align:center;">Mentorship Questionnaire</h2>
             <i style="position:relative;float:left;" id="toggleIcon" class="fas fa-toggle-on toggle-switch" onclick="togglePlaceholderData()" title="Toggle Sample Data"></i>
             <p>
                 <figure>
